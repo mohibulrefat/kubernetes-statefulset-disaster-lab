@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Kubernetes local/generated files
+*.secret.yaml
+*-secret.yaml
+
+# Local Kubernetes state
+.kube/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Backup files
+*.sql
+*.dump
+*.sql.gz
